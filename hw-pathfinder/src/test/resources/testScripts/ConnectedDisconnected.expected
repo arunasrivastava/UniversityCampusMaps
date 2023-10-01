@@ -1,0 +1,15 @@
+# test dijkstra on 1 edge 3 nodes
+
+created graph g
+added node c1 to g
+added node c2 to g
+added node c3 to g
+added edge 2.000 from c1 to c2 in g
+added edge 2.000 from c2 to c1 in g
+
+path from c1 to c2:
+c1 to c2 with weight 2.000
+total cost: 2.000
+
+path from c3 to c1:
+no path found

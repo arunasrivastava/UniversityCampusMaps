@@ -1,0 +1,24 @@
+# Tests when paths are not found
+
+CreateGraph g
+
+AddNode g n1
+AddNode g n2
+AddNode g n3
+AddEdge g n1 n2 1
+
+FindPath g n1 n2
+
+FindPath g n1 n3
+# Tests below are for when at least one node is not in the graph
+FindPath g n1 x
+
+FindPath g x n1
+
+FindPath g x y
+
+FindPath g y x
+
+FindPath g x x
+
+FindPath g n1 n1

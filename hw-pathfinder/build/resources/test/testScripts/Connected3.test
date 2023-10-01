@@ -1,0 +1,16 @@
+# test dijkstra on cycle
+
+CreateGraph g
+AddNode g c1
+AddNode g c2
+AddNode g c3
+AddEdge g c1 c2 2
+AddEdge g c2 c3 2
+AddEdge g c3 c1 2
+AddEdge g c1 c3 2
+
+FindPath g c1 c3
+
+FindPath g c3 c2
+
+FindPath g c1 c1

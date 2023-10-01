@@ -1,0 +1,15 @@
+# test on 1 edge 2 nodes
+
+created graph g
+added node c1 to g
+added node c2 to g
+added edge 1.000 from c1 to c2 in g
+added edge 1.000 from c2 to c1 in g
+
+path from c1 to c2:
+c1 to c2 with weight 1.000
+total cost: 1.000
+
+path from c2 to c1:
+c2 to c1 with weight 1.000
+total cost: 1.000

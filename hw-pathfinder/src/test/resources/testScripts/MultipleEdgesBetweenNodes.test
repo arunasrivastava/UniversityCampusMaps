@@ -1,0 +1,31 @@
+# test dijkstra to choose edges over nodes
+
+CreateGraph g
+AddNode g c1
+AddNode g c2
+AddNode g c3
+AddNode g c4
+AddNode g c5
+AddEdge g c1 c2 1.1
+AddEdge g c1 c3 1.05
+AddEdge g c1 c4 1.05
+AddEdge g c2 c5 1
+AddEdge g c3 c5 1
+AddEdge g c4 c5 1
+
+FindPath g c1 c5
+
+# test dijkstra to choose edges over nodes
+
+CreateGraph g2
+AddNode g2 c1
+AddNode g2 c2
+AddNode g2 c5
+AddEdge g2 c1 c2 1.1
+AddEdge g2 c1 c2 1.05
+AddEdge g2 c1 c2 1
+AddEdge g2 c1 c2 1.001
+AddEdge g2 c2 c5 1.09
+AddEdge g2 c2 c5 1.08
+
+FindPath g2 c1 c5

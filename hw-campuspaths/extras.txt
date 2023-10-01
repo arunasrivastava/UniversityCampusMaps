@@ -1,0 +1,13 @@
+CSE 331 Homework Answers:
+
+Your Name: Aruna Srivastava
+
+List any additional features or functionality you implemented
+in your CampusPaths application below. Only things listed here
+will be considered for extra credit.
+
+Added CSS for responsive design such that the design is compatable wih most screen sizes included mobile view.
+Added a exit and open toggle for card containing user input fields.
+Added markers for start and end buildings
+
+

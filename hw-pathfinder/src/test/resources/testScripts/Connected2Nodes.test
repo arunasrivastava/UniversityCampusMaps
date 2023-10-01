@@ -1,0 +1,11 @@
+# test on 1 edge 2 nodes
+
+CreateGraph g
+AddNode g c1
+AddNode g c2
+AddEdge g c1 c2 1
+AddEdge g c2 c1 1
+
+FindPath g c1 c2
+
+FindPath g c2 c1

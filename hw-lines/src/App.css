@@ -1,0 +1,60 @@
+/*
+ * Copyright (C) 2023 Soham Pardeshi.  All rights reserved.  Permission is
+ * hereby granted to students registered for University of Washington
+ * CSE 331 for use solely during Spring Quarter 2021 for purposes of
+ * the course.  No other use, copying, distribution, or modification
+ * is permitted without prior written consent. Copyrights for
+ * third-party components of this work must be honored.  Instructors
+ * interested in reusing these course materials should contact the
+ * author.
+ */
+
+/*
+CSS file used by the Application
+
+It provides placement and style information for the components in the app
+and only exists for aesthetic purposes. The app would work just fine if this
+file was empty.
+*/
+
+/* Create some space around text boxes so the label text isn't scrunched up next to it. */
+input {
+    margin: 5px;
+}
+
+/* Centers component with ID "map-wrapper" and sets width and bottom spacing */
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+/* Sets size of map, which has class name "leaflet-container" */
+.leaflet-container {
+    width: 800px;
+    height: 600px;
+}
+
+/* Same as above, but with ID "edge-list", and also creates a little margin so things aren't squished together. */
+#edge-list {
+    text-align: center;
+    margin: 5px;
+}
+
+/* This syntax means "any <button> elements inside something with ID "edge-list"" - the 2px is for above and
+ below the button, the 5px is the left and right sides. This prevents the draw and clear buttons from being
+ squished right next to each other. */
+#edge-list button {
+    margin: 2px 5px;
+}
+
+/* Centers the "Line Mapper!" text, which is in a <p> (paragraph) tag inside the <App /> component, and has an
+ID of "app-title". Also makes the text bigger, bold, and adds some space around the title. */
+#app-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}

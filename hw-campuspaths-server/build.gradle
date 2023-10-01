@@ -1,0 +1,14 @@
+task runSpark(type: JavaExec) {
+  group = "homework"
+  mainClass = "campuspaths/SparkServer"
+  standardInput = System.in
+  classpath = sourceSets.main.runtimeClasspath
+}
+
+dependencies {
+  implementation "com.google.code.gson:gson:2.8.5"
+  implementation "com.sparkjava:spark-core:2.8.0"
+  implementation "org.slf4j:slf4j-simple:1.7.21"
+  implementation project(':hw-graph')
+  implementation project(':hw-pathfinder')
+}

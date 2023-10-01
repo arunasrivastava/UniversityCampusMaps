@@ -1,0 +1,22 @@
+# test dijkstra on cycle
+
+created graph g
+added node c1 to g
+added node c2 to g
+added node c3 to g
+added edge 2.000 from c1 to c2 in g
+added edge 2.000 from c2 to c3 in g
+added edge 2.000 from c3 to c1 in g
+added edge 2.000 from c1 to c3 in g
+
+path from c1 to c3:
+c1 to c3 with weight 2.000
+total cost: 2.000
+
+path from c3 to c2:
+c3 to c1 with weight 2.000
+c1 to c2 with weight 2.000
+total cost: 4.000
+
+path from c1 to c1:
+total cost: 0.000

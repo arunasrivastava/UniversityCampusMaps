@@ -1,0 +1,31 @@
+# Tests when paths are not found
+
+created graph g
+
+added node n1 to g
+added node n2 to g
+added node n3 to g
+added edge 1.000 from n1 to n2 in g
+
+path from n1 to n2:
+n1 to n2 with weight 1.000
+total cost: 1.000
+
+path from n1 to n3:
+no path found
+# Tests below are for when at least one node is not in the graph
+unknown: x
+
+unknown: x
+
+unknown: x
+unknown: y
+
+unknown: y
+unknown: x
+
+unknown: x
+unknown: x
+
+path from n1 to n1:
+total cost: 0.000

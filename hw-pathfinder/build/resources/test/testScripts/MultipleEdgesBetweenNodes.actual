@@ -1,0 +1,37 @@
+# test dijkstra to choose edges over nodes
+
+created graph g
+added node c1 to g
+added node c2 to g
+added node c3 to g
+added node c4 to g
+added node c5 to g
+added edge 1.100 from c1 to c2 in g
+added edge 1.050 from c1 to c3 in g
+added edge 1.050 from c1 to c4 in g
+added edge 1.000 from c2 to c5 in g
+added edge 1.000 from c3 to c5 in g
+added edge 1.000 from c4 to c5 in g
+
+path from c1 to c5:
+c1 to c4 with weight 1.050
+c4 to c5 with weight 1.000
+total cost: 2.050
+
+# test dijkstra to choose edges over nodes
+
+created graph g2
+added node c1 to g2
+added node c2 to g2
+added node c5 to g2
+added edge 1.100 from c1 to c2 in g2
+added edge 1.050 from c1 to c2 in g2
+added edge 1.000 from c1 to c2 in g2
+added edge 1.001 from c1 to c2 in g2
+added edge 1.090 from c2 to c5 in g2
+added edge 1.080 from c2 to c5 in g2
+
+path from c1 to c5:
+c1 to c2 with weight 1.000
+c2 to c5 with weight 1.080
+total cost: 2.080

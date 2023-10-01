@@ -1,0 +1,4 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+After making graph generic, I changed the inner edge class to accommodate for these changes in the parameter and return types. I also realize that
+how I stored edges would be more effective in a set and that I would gain better runtime efficiency using a set over a list.
+I changed edge back to a static class as well because it is designed in a way that it will not be instantiated.
