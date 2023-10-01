@@ -3,7 +3,7 @@ A Campus Map of the University of Washington that determines the shortest path b
 
 Key Focuses of this Project:
 * Determining abstract data type for graph implementation
-* Implementing test suits
+* Implementing test suites
 * Full-stack development with React.js
 * Front end 
 
