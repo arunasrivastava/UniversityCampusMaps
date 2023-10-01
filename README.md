@@ -7,4 +7,5 @@ Key Focuses of this Project:
 * Full-stack development with React.js
 * Front end 
 
-![image](https://github.com/arunasrivastava/UniversityCampusMaps/assets/82174933/a1435280-a686-4545-a3c2-6f429c4f6de6)
+![image](https://github.com/arunasrivastava/UniversityCampusMaps/assets/82174933/1a9c7605-c611-4346-8ad4-e8c8e64471b1)
+
